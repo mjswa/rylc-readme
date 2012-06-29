@@ -17,7 +17,7 @@ Dieses README gibt einen Überblick über alle Repositories mit Beispielcode zum
 *    [rycl-html5](https://github.com/mjswa/rylc-html5): Enthält den Code zu den Kapiteln 8 und 9
      *   Branch [baseline](https://github.com/mjswa/rylc-html5/tree/baseline): Enthält den Code zum Kapitel 8 Die fertige Web-App
      *   Branch [master](https://github.com/mjswa/rylc-html5): Enthält den Code zum Kapitel 9 Modularisierung und Build
-*    [rylc-html5-phonegap](https://github.com/mjswa/rylc-html5-phonegap) enthält den Code zu Kapitel 10, Abschnitte 10.1 und 10.2.
+*    [rylc-html5-phonegap](https://github.com/mjswa/rylc-html5-phonegap) enthält den Code zu Kapitel 10, Abschnitte 10.1, 10.2, 10.5 und folgende.
 *    [rylc-android-phonegap](https://github.com/mjswa/rylc-android-phonegap) enthält den Code zu Kapitel 10, Abschnitte 10.3 bis 10.5.
 
 ## Voraussetzungen ##
