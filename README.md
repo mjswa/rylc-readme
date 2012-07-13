@@ -25,8 +25,11 @@ Dieses README gibt einen Überblick über alle Repositories mit Beispielcode zum
 *   [Java Development Kit 1.6 oder neuer](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
 *   [Apache Maven 3.0.4 oder neuer](http://maven.apache.org/).
 *   [Google Chrome](http://www.google.com/chrome)
-*   Google Chrome sollte möglichst von der Kommandozeile aus mit dem Befehl `chrome` gestartet werden können. Unter Linux-Systemen kann dazu beispielsweise ein Alias für das Executable von Chrome erstellt werden. Unter OS X kann folgendes Shell-Script unter dem Namen `chrome` in einem Verzeichnis ablegen, das im Pfad enthalten ist:
-<pre><code>#!/bin/bash
-open -a "Google Chrome.app" "$@"</code></pre>
+*   Für das Bauen der Projekte mit Maven sollte Google Chrome möglichst von der Kommandozeile aus mit dem Befehl `chrome` gestartet werden können. Unter Linux-Systemen kann dazu beispielsweise ein Alias für das Executable von Chrome erstellt werden. 
     Unter Windows kann das Verzeichnis, das `chrome.exe` enthält, der Umgebungsvariable PATH hinzugefügt werden.
+    Alternativ kann man beim Aufruf von Maven den Kommandozeilenparameter `-Dbrowser=<Pfad zu Chrome>` angeben, für OS X beispielsweise so:
+      
+    <pre><code>$ mvn clean install -Pintegration -Dbrowser=/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome</code></pre>
+
+    Details zum Bauen der Projekte finden sich im jeweiligen Projekt.      
 *   Einzelne Projekte haben gegebenenfalls noch weitere Voraussetzungen. Dies ist in dem jeweiligen Projekt dokumentiert.
