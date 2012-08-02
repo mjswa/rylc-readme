@@ -4,21 +4,21 @@ Dieses README gibt einen Überblick über alle Repositories mit Beispielcode zum
 
 ## Überblick ##
 
-*   [rylc-backend](https://github.com/mjswa/rylc-backend): Enthält die Backend-Komponente der Beispielapplikation und wird ab Kapitel 7 Backendkommunikation verwendet. Damit die Backend-Komponente von den anderen Projekten bei Bedarf verwendet werden kann, muss man in diesem Projekt in das Unterverzeichnis `rylc-backend-jar` wechseln und das Projekt mit Maven (siehe Voraussetzungen) mit dem Kommandozeilen-Befehl `mvn clean install -Pproduction` bauen.
-*   [rylc-tdd](https://github.com/mjswa/rylc-tdd): Enthält den Beispielcode zum Kapitel 4 Testen.
-*   [rylc-ui](https://github.com/mjswa/rylc-ui): Enthält den Beispielcode zum Kapitel 5 Oberflächenkomponenten
-*   [rylc-binding](https://github.com/mjswa/rylc-binding): Enthält den Beispielcode zum Kapitel 6 Data Binding
-    *   Branch [plain](https://github.com/mjswa/rylc-binding/tree/plain): Enthält den Code zu Abschnitt 6.1
-    *   Branch [minimal](https://github.com/mjswa/rylc-binding/tree/minimal): Enthält den Code zu den Abschnitt 6.2 und 6.3
-    *   Branch [master](https://github.com/mjswa/rylc-binding): Enthält den Code zum Abschnitt 6.4
-*   [rylc-services](https://github.com/mjswa/rylc-services): Enthält den Code zum Kapitel 7 Backendkommunikation    
-    *   Branch [inmemory](https://github.com/mjswa/rylc-services/tree/inmemory): Enthält den Code zu den Abschnitten 7.1 und 7.2
-    *   Branch [master](https://github.com/mjswa/rylc-services): Enthält den Code zu den Abschnitten 7.3 und 7.4
-*    [rycl-html5](https://github.com/mjswa/rylc-html5): Enthält den Code zu den Kapiteln 8 und 9
-     *   Branch [baseline](https://github.com/mjswa/rylc-html5/tree/baseline): Enthält den Code zum Kapitel 8 Die fertige Web-App
-     *   Branch [master](https://github.com/mjswa/rylc-html5): Enthält den Code zum Kapitel 9 Modularisierung und Build
-*    [rylc-html5-phonegap](https://github.com/mjswa/rylc-html5-phonegap) enthält den Code zu Kapitel 10, Abschnitte 10.1, 10.2, 10.5 und folgende.
-*    [rylc-android-phonegap](https://github.com/mjswa/rylc-android-phonegap) enthält den Code zu Kapitel 10, Abschnitte 10.3 bis 10.5.
+*   [rylc-backend](https://github.com/mjswa/rylc-backend): Enthält die Backend-Komponente der Beispielapplikation und wird ab Kapitel 7 Backendkommunikation verwendet. Damit die Backend-Komponente von den anderen Projekten bei Bedarf verwendet werden kann, muss man in diesem Projekt in das Unterverzeichnis `rylc-backend-jar` wechseln und das Projekt mit Maven (siehe Abschnitt "Voraussetzungen" weiter unten) mit dem Kommandozeilen-Befehl `mvn clean install -Pproduction` bauen.
+*   [rylc-tdd](https://github.com/mjswa/rylc-tdd): Enthält den Beispielcode zum Kapitel 4 "Testen".
+*   [rylc-ui](https://github.com/mjswa/rylc-ui): Enthält den Beispielcode zum Kapitel 5 "Oberflächenkomponenten".
+*   [rylc-binding](https://github.com/mjswa/rylc-binding): Enthält den Beispielcode zum Kapitel 6 "Data Binding".
+    *   Branch [plain](https://github.com/mjswa/rylc-binding/tree/plain): Enthält den Code zum Abschnitt 6.1.
+    *   Branch [minimal](https://github.com/mjswa/rylc-binding/tree/minimal): Enthält den Code zu den Abschnitten 6.2 und 6.3.
+    *   Branch [master](https://github.com/mjswa/rylc-binding): Enthält den Code zum Abschnitt 6.4.
+*   [rylc-services](https://github.com/mjswa/rylc-services): Enthält den Code zum Kapitel 7 "Backendkommunikation".    
+    *   Branch [inmemory](https://github.com/mjswa/rylc-services/tree/inmemory): Enthält den Code zu den Abschnitten 7.1 und 7.2.
+    *   Branch [master](https://github.com/mjswa/rylc-services): Enthält den Code zu den Abschnitten 7.3 und 7.4.
+*    [rycl-html5](https://github.com/mjswa/rylc-html5): Enthält den Code zu den Kapiteln 8 und 9.
+     *   Branch [baseline](https://github.com/mjswa/rylc-html5/tree/baseline): Enthält den Code zum Kapitel 8 "Die fertige Web-App".
+     *   Branch [master](https://github.com/mjswa/rylc-html5): Enthält den Code zum Kapitel 9 "Modularisierung und Build".
+*    [rylc-html5-phonegap](https://github.com/mjswa/rylc-html5-phonegap) enthält den Code zum Kapitel 10, Abschnitte 10.1, 10.2, 10.5 und folgende.
+*    [rylc-android-phonegap](https://github.com/mjswa/rylc-android-phonegap) enthält den Code zum Kapitel 10, Abschnitte 10.3 bis 10.5.
 
 ## Voraussetzungen ##
 
