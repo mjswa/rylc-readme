@@ -4,7 +4,7 @@ Dieses README gibt einen Überblick über alle Repositories mit Beispielcode zum
 
 ## Überblick ##
 
-*   [rylc-backend](https://github.com/mjswa/rylc-backend): Enthält die Backend-Komponente der Beispielapplikation und wird ab Kapitel 7 Backendkommunikation verwendet. Damit die Backend-Komponente von den anderen Projekten bei Bedarf verwendet werden kann, muss man in diesem Projekt in das Unterverzeichnis `rylc-backend-jar` wechseln und das Projekt mit Maven (siehe Abschnitt "Voraussetzungen" weiter unten) mit dem Kommandozeilen-Befehl `mvn clean install -Pproduction` bauen.
+*   [rylc-backend](https://github.com/mjswa/rylc-backend): Enthält die Backend-Komponente der Beispielapplikation und wird ab Kapitel 7 Backendkommunikation verwendet. Damit die Backend-Komponente von den anderen Projekten bei Bedarf verwendet werden kann, muss man dieses Projekt einmalig mit Maven (siehe Abschnitt "Voraussetzungen" weiter unten) mit dem Kommandozeilen-Befehl `mvn clean install -Pproduction` bauen.
 *   [rylc-tdd](https://github.com/mjswa/rylc-tdd): Enthält den Beispielcode zum Kapitel 4 "Testen".
 *   [rylc-ui](https://github.com/mjswa/rylc-ui): Enthält den Beispielcode zum Kapitel 5 "Oberflächenkomponenten".
 *   [rylc-binding](https://github.com/mjswa/rylc-binding): Enthält den Beispielcode zum Kapitel 6 "Data Binding".
